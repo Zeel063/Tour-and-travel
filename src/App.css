@@ -1,0 +1,233 @@
+
+
+.abc{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width:100%;
+  padding: 2px 5px;  
+  /*background-color:rgb(198, 211, 210);*/
+  background-color: #ccc;
+}
+
+.xyz{
+  text-decoration: none;
+  margin: 1px;
+  margin-right: 60px;
+  font-size:large;
+  color:rgb(11, 10, 10);
+  font-weight: 300;
+  padding: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgb(3, 48, 56);
+  font-weight: 400  ;
+}
+.navv{
+  
+  display: flex;
+  
+}
+.heading
+{
+font-family:Georgia, 'Times New Roman', Times, serif;  
+color: rgb(162, 162, 162);
+margin-top: 6px;
+}
+.text{
+  position: absolute;
+  top:80%;
+  left: 19%;
+  transform: translate(-50%,-50%);
+  text-align:left;
+  color: rgb(192, 210, 207);
+  width:33%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0;
+}
+
+
+.btn
+{
+  border-radius: 16px;
+  background-color: rgb(192, 210, 207);
+  color:#2d2a2a;
+ 
+  margin-right: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+  
+ 
+}
+.subimg{
+  background-color: rgb(15, 95, 109);
+  margin: 0px;
+  padding: 33px;
+
+ 
+  
+}
+h2,p{
+  color: aliceblue;
+}
+.im{
+  background-color: rgb(240,255,240);
+  margin: 0px;
+  padding: 75px;
+
+}
+.footer
+{
+background-color: darkgray;
+}
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.text {
+  animation: fadeInText 1.9s ease;
+}
+
+h5{
+  
+    animation: fadeInText 1.5s ease;
+  
+}
+.login-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background: transparent;
+  backdrop-filter: blur(5px);*/
+ background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+ 
+
+  
+  
+}
+
+.login-box h2 {
+  margin-top: 0;
+  z-index: 1;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 10px;
+  z-index: 1;
+  font-weight: 500;
+  color: #000000;
+}
+
+.login-box input[type="text"],.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 1px solid #0a0909;
+  width:280px;
+  z-index: 1;
+  border-radius: 20px;
+  color: #1b1a1a;
+}
+
+.login-box button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 299px;
+  z-index: 1;
+}
+
+.login-box button[type="submit"]:hover {
+  background-color: #3e8e41;
+  z-index: 1;
+}
+
+.maindiv{
+  height: 100vh;
+  width:100vw;
+  /*background-color: black;*/
+  background-image: url("https://wallup.net/wp-content/uploads/2016/01/294819-landscape-nature-water-river.jpg");
+    /*background-image: url("https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=cold-snow-dawn-618833.jpg&fm=jpg");*/
+  /* background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/HZHnL4R6xj1hrqjd5/videoblocks-aerial-view-yacht-sailing-on-open-sea-at-sunny-day-sailing-boat-in-sea_r1wtajlqxb_thumbnail-1080_01.png");  */
+  background-image: url("https://images.hdqwalls.com/wallpapers/landscape-alpine-mountains-landscape-5k-1k.jpg"); 
+ 
+    
+  background-size:cover ;
+}
+.inside{
+  z-index: 1;
+}
+.trip{
+  margin: 4rem 6rem;
+  color: black;
+  
+}
+.trip h1{
+  font-size: 3rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.trip p{
+  font-size: large;
+}
+
+
+
+.t-card{
+  margin-top: 10rem;
+  justify-content: space-between;
+}
+.cards{
+  display: flex;
+ 
+}
+.t-image{
+  width: 32%;
+  height: 30%;
+  text-align: start;
+  box-shadow: 0 5px 25px 2px rgba(0,0,0.11);
+  border-radius: 7px;
+  padding: 1rem 0.8rem;
+  margin: 15px;
+}
+.t-image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  border-radius: 7px;
+}
+.t-image:hover img{
+
+  transform: scale(1.1);
+}
+.t-image p{
+  color: black;
+}
+.trip p{
+  color: black;
+}
+.trip{
+  text-align: center;
+}
+.cards2{
+  display: flex;
+  margin-top: 7%;
+}
